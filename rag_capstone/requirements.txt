@@ -1,0 +1,21 @@
+# Core (all stages, including --dry-run)
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+chromadb
+langchain-text-splitters
+rouge-score
+nltk
+tqdm
+pytest
+
+# Real run only (GPU + Hugging Face): models, fine-tuning, embeddings, Bitext download
+torch
+transformers
+accelerate
+bitsandbytes
+peft
+datasets
+sentence-transformers
